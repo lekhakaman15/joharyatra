@@ -1,0 +1,108 @@
+{
+  "destinations": [
+    {
+      "id": 1,
+      "name": "Hundru Falls",
+      "type": "Nature",
+      "category": "Waterfall",
+      "lat": 23.4284,
+      "lng": 85.6569,
+      "image": "https://images.pexels.com/photos/14020875/pexels-photo-14020875.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "shortDesc": "A spectacular 98-meter waterfall cascading down the Subarnarekha River.",
+      "longDesc": "Hundru Falls is one of Jharkhand's most breathtaking natural wonders, where the Subarnarekha River plunges 98 meters into a deep gorge. Surrounded by dense forests and rocky terrain, it offers stunning viewpoints, picnic spots, and a serene atmosphere perfect for nature lovers and photographers.",
+      "nearby": ["Jonha Falls", "Panchghagh Falls", "Ranchi"],
+      "tags": ["waterfall", "nature", "photography", "picnic"]
+    },
+    {
+      "id": 2,
+      "name": "Netarhat",
+      "type": "Nature",
+      "category": "Hill Station",
+      "lat": 23.4716,
+      "lng": 84.2606,
+      "image": "https://images.pexels.com/photos/10101268/pexels-photo-10101268.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "shortDesc": "The 'Queen of Chotanagpur' — pine forests, sunrise points, and cool highland air.",
+      "longDesc": "Perched at 1,070 meters, Netarhat is Jharkhand's premier hill station. Famous for its magnificent sunrise and sunset views from Magnolia Point, it's wrapped in pine forests and rolling meadows. The cool climate and colonial-era charm make it a perfect retreat from the plains.",
+      "nearby": ["Lodh Falls", "Betla National Park", "Palamu Fort"],
+      "tags": ["hill station", "sunrise", "sunset", "nature"]
+    },
+    {
+      "id": 3,
+      "name": "Betla National Park",
+      "type": "Nature",
+      "category": "Wildlife",
+      "lat": 23.8870,
+      "lng": 84.1900,
+      "image": "https://images.pexels.com/photos/35257991/pexels-photo-35257991.png?auto=compress&cs=tinysrgb&h=650&w=940",
+      "shortDesc": "Tiger reserve with elephants, scenic drives, and ancient ruins inside the forest.",
+      "longDesc": "Betla National Park is one of India's earliest tiger reserves, spanning 226 square kilometers of sal forests, grasslands, and bamboo groves. Home to tigers, elephants, leopards, and hundreds of bird species, it also houses the historic Palamu Fort ruins within its boundaries.",
+      "nearby": ["Palamu Fort", "Netarhat", "Lodh Falls"],
+      "tags": ["wildlife", "tiger reserve", "safari", "birds"]
+    },
+    {
+      "id": 4,
+      "name": "Parasnath Hill",
+      "type": "Cultural",
+      "category": "Pilgrimage",
+      "lat": 23.9450,
+      "lng": 86.3460,
+      "image": "https://images.pexels.com/photos/31969428/pexels-photo-31969428.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "shortDesc": "Jainism's most sacred hill — 20 shrines atop Jharkhand's highest peak.",
+      "longDesc": "At 1,365 meters, Parasnath Hill (Sammed Shikhar) is the most revered Jain pilgrimage site, where 20 of the 24 Jain Tirthankaras attained nirvana. The hill features beautifully carved temples, a challenging trek, and panoramic views of the surrounding landscape.",
+      "nearby": ["Madhuban", "Giridih", "Usri Falls"],
+      "tags": ["pilgrimage", "jain", "trekking", "temple"]
+    },
+    {
+      "id": 5,
+      "name": "Dassam Falls",
+      "type": "Nature",
+      "category": "Waterfall",
+      "lat": 23.2740,
+      "lng": 85.5710,
+      "image": "https://images.pexels.com/photos/6965505/pexels-photo-6965505.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "shortDesc": "A pristine waterfall where the Kanchi River drops in ten streams.",
+      "longDesc": "Dassam Falls, meaning 'ten streams,' is a stunning cascade on the Kanchi River near Ranchi. The water falls from 44 meters, creating a mesmerizing display. The surrounding rocky landscape and forested hills make it a popular destination for day trips and nature photography.",
+      "nearby": ["Ranchi", "Jonha Falls", "Panchghagh Falls"],
+      "tags": ["waterfall", "nature", "photography", "day trip"]
+    },
+    {
+      "id": 6,
+      "name": "Deoghar (Baidyanath Dham)",
+      "type": "Cultural",
+      "category": "Pilgrimage",
+      "lat": 24.4829,
+      "lng": 86.6960,
+      "image": "https://images.pexels.com/photos/29308921/pexels-photo-29308921.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "shortDesc": "One of the 12 Jyotirlingas — a sacred Shiva temple town of deep devotion.",
+      "longDesc": "Baidyanath Dham in Deoghar is home to one of the twelve sacred Jyotirlingas of Lord Shiva. Millions of devotees visit during Shravan Mela, carrying holy Ganga water from Sultanganj. The temple complex, with its intricate architecture and spiritual energy, is a cornerstone of Jharkhand's cultural heritage.",
+      "nearby": ["Trikut Hills", "Satsang Ashram", "Nandan Pahar"],
+      "tags": ["pilgrimage", "shiva", "temple", "festival"]
+    },
+    {
+      "id": 7,
+      "name": "Patratu Valley",
+      "type": "Nature",
+      "category": "Scenic Drive",
+      "lat": 23.5930,
+      "lng": 85.2790,
+      "image": "https://images.pexels.com/photos/13502240/pexels-photo-13502240.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "shortDesc": "Winding valley roads with emerald lakes, hills, and a famous valley viewpoint.",
+      "longDesc": "Patratu Valley offers one of the most scenic drives in eastern India, with serpentine roads wrapping around lush green hills and a stunning turquoise lake. The Patratu Valley Viewpoint provides a sweeping panorama, especially magical during monsoon when the hills turn vividly green.",
+      "nearby": ["Patratu Lake", "Ranchi", "Barkagaon"],
+      "tags": ["scenic drive", "valley", "lake", "photography"]
+    },
+    {
+      "id": 8,
+      "name": "Hazaribagh Wildlife Sanctuary",
+      "type": "Nature",
+      "category": "Wildlife",
+      "lat": 24.0050,
+      "lng": 85.3660,
+      "image": "https://images.pexels.com/photos/27584850/pexels-photo-27584850.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "shortDesc": "Tigers, leopards, and tribal rock art in dense sal forests.",
+      "longDesc": "Spread across 186 square kilometers, Hazaribagh Wildlife Sanctuary shelters tigers, leopards, sambars, and over 100 bird species. The sanctuary is also renowned for ancient tribal rock paintings at Isko, offering a rare blend of wildlife and prehistoric art.",
+      "nearby": ["Hazaribagh Lake", "Konar Dam", "Suraj Kund"],
+      "tags": ["wildlife", "sanctuary", "rock art", "birds"]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "steps": [
+    { "id": 1, "title": "Welcome Screen", "desc": "Discover Jharkhand — a warm, visual introduction to the land of forests, waterfalls, and rich tribal heritage.", "icon": "door-open" },
+    { "id": 2, "title": "Onboarding", "desc": "Choose your language (EN / HI) and set your travel preferences — adventure, culture, nature, or all of them.", "icon": "globe" },
+    { "id": 3, "title": "Smart Trip Planner", "desc": "Get a personalized itinerary powered by our rule-based engine, tailored to your interests and time.", "icon": "route" },
+    { "id": 4, "title": "Explore Destinations", "desc": "Browse places on an interactive map with rich info, photos, and nearby attractions.", "icon": "map" },
+    { "id": 5, "title": "Culture Hub", "desc": "Immerse in stories, festivals, food, music, and the living tribal heritage of Jharkhand.", "icon": "book-open" },
+    { "id": 6, "title": "Local Ecosystem", "desc": "Connect with artisans, guides, homestays, and authentic local products.", "icon": "store" },
+    { "id": 7, "title": "My Journey Dashboard", "desc": "Track your bookings, saved trips, earned badges, and Eco Score in one place.", "icon": "layout-dashboard" },
+    { "id": 8, "title": "Eco Score & Impact", "desc": "See how your travel choices help nature and local communities — in real numbers.", "icon": "leaf" },
+    { "id": 9, "title": "Johar Assistant", "desc": "A smart FAQ assistant with predefined answers for common tourist questions.", "icon": "message-circle" },
+    { "id": 10, "title": "Verified Partners", "desc": "Digital verification certificates for guides and homestays — trust built into every booking.", "icon": "badge-check" },
+    { "id": 11, "title": "Reviews & Feedback", "desc": "Rate and review your experiences, and help future travelers with your insights.", "icon": "star" },
+    { "id": 12, "title": "Admin Dashboard", "desc": "Tourism analytics, visitor trends, and local impact insights for the Tourism Department.", "icon": "bar-chart" }
+  ]
+}

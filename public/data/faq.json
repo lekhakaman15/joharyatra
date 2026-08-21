@@ -1,0 +1,44 @@
+{
+  "faqs": [
+    {
+      "id": 1,
+      "q": "What is JoharYatra?",
+      "a": "JoharYatra is a smart digital platform for eco and cultural tourism in Jharkhand. It helps you plan trips, explore destinations, experience tribal culture, and support local communities — all in one place."
+    },
+    {
+      "id": 2,
+      "q": "Is JoharYatra free to use?",
+      "a": "Yes! JoharYatra is a lightweight, zero-cost platform. You can plan trips, explore the map, browse the culture hub, and use the assistant without any fees."
+    },
+    {
+      "id": 3,
+      "q": "What is the best time to visit Jharkhand?",
+      "a": "October to March is ideal — pleasant weather, clear skies, and festival season (Sarhul in spring, Tusu in winter). Monsoon (July–September) is beautiful for waterfalls but roads can be challenging."
+    },
+    {
+      "id": 4,
+      "q": "How does the Smart Trip Planner work?",
+      "a": "Choose your interests, trip duration, and budget. Our rule-based engine matches your preferences with curated destinations and generates a personalized day-by-day itinerary."
+    },
+    {
+      "id": 5,
+      "q": "Are the guides and homestays verified?",
+      "a": "Yes. Verified partners carry a digital certificate badge. You can check verification status on every guide and homestay listing before booking."
+    },
+    {
+      "id": 6,
+      "q": "What is the Eco Score?",
+      "a": "Your Eco Score measures how sustainably you travel — choosing local homestays, buying from artisans, and visiting eco-friendly destinations all increase your score. Earn badges as you explore responsibly!"
+    },
+    {
+      "id": 7,
+      "q": "Can I use JoharYatra in Hindi?",
+      "a": "The platform supports both English and Hindi. During onboarding, you can choose your preferred language for navigation and content."
+    },
+    {
+      "id": 8,
+      "q": "How do I reach Jharkhand?",
+      "a": "Ranchi has the nearest airport (Birsa Munda Airport) with daily flights from Delhi, Kolkata, and Mumbai. Major rail hubs include Ranchi, Dhanbad, and Tatanagar. Road connectivity is excellent via NH-31, NH-33, and NH-2."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "preferences": [
+    { "id": "nature", "label": "Nature & Wildlife", "icon": "mountain" },
+    { "id": "culture", "label": "Culture & Heritage", "icon": "landmark" },
+    { "id": "adventure", "label": "Adventure & Trekking", "icon": "compass" },
+    { "id": "spiritual", "label": "Spiritual & Pilgrimage", "icon": "sparkles" },
+    { "id": "food", "label": "Food & Local Cuisine", "icon": "utensils" },
+    { "id": "crafts", "label": "Art & Handicrafts", "icon": "palette" }
+  ],
+  "durations": [
+    { "id": "weekend", "label": "Weekend (2–3 days)", "days": 2 },
+    { "id": "short", "label": "Short Trip (4–5 days)", "days": 4 },
+    { "id": "week", "label": "Full Week (6–7 days)", "days": 7 },
+    { "id": "extended", "label": "Extended (8+ days)", "days": 10 }
+  ],
+  "budgets": [
+    { "id": "budget", "label": "Budget (₹2,000–₹4,000/day)", "level": 1 },
+    { "id": "mid", "label": "Mid-range (₹4,000–₹8,000/day)", "level": 2 },
+    { "id": "premium", "label": "Premium (₹8,000+/day)", "level": 3 }
+  ],
+  "rules": {
+    "nature": [1, 2, 3, 5, 7, 8],
+    "culture": [4, 6, 2],
+    "adventure": [2, 3, 4, 8],
+    "spiritual": [4, 6],
+    "food": [6, 1, 5],
+    "crafts": [6, 4]
+  }
+}

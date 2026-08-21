@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="JoharYatra — Smart Digital Platform for Eco & Cultural Tourism in Jharkhand. Explore destinations, experience tribal culture, and empower local communities." />
+    <title>JOHARYATRA — Explore. Experience. Empower.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Source+Serif+4:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  </head>
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <nav id="navbar">
+      <div class="nav-inner">
+        <a href="#hero" class="nav-logo">
+          <span class="logo-leaf"><i data-lucide="leaf"></i></span>
+          <span class="logo-text">JOHARYATRA</span>
+        </a>
+        <button id="navToggle" class="nav-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#vision">Vision</a></li>
+          <li><a href="#why">Why Us</a></li>
+          <li><a href="#journey">Journey</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#planner">Trip Planner</a></li>
+          <li><a href="#culture">Culture</a></li>
+          <li><a href="#marketplace">Marketplace</a></li>
+          <li><a href="#assistant">Assistant</a></li>
+        </ul>
+        <a href="#planner" class="nav-cta">Start Planning</a>
+      </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i data-lucide="sparkles"></i>
+          <span>Eco & Cultural Tourism in Jharkhand</span>
+        </div>
+        <h1 class="hero-title">
+          <span class="hero-logo-line">
+            <span class="hero-leaf"><i data-lucide="leaf"></i></span>
+            JOHARYATRA
+          </span>
+          <span class="hero-tagline">Explore. Experience. Empower.</span>
+        </h1>
+        <p class="hero-subtitle">Smart Digital Platform for Eco & Cultural Tourism in Jharkhand</p>
+        <p class="hero-headline">A tourist-friendly platform that helps people <strong>PLAN</strong>, <strong>EXPLORE</strong> & <strong>EXPERIENCE</strong> Jharkhand while <strong>EMPOWERING</strong> locals and <strong>PRESERVING</strong> our culture & nature.</p>
+        <div class="hero-cta">
+          <a href="#planner" class="btn btn-primary">
+            <i data-lucide="compass"></i> Start Planning
+          </a>
+          <a href="#destinations" class="btn btn-secondary">
+            <i data-lucide="map"></i> Explore Destinations
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="stat-num">8</span><span class="stat-label">Destinations</span></div>
+          <div class="hero-stat"><span class="stat-num">12</span><span class="stat-label">Step Journey</span></div>
+          <div class="hero-stat"><span class="stat-num">32+</span><span class="stat-label">Tribes</span></div>
+          <div class="hero-stat"><span class="stat-num">100%</span><span class="stat-label">Eco-Friendly</span></div>
+        </div>
+      </div>
+      <div class="hero-scroll">
+        <span>Scroll to explore</span>
+        <i data-lucide="chevron-down"></i>
+      </div>
+    </section>
+
+    <!-- ===== VISION ===== -->
+    <section id="vision" class="section">
+      <div class="container">
+        <div class="vision-box reveal">
+          <div class="vision-icon"><i data-lucide="eye"></i></div>
+          <h2 class="section-label">Our Vision</h2>
+          <p class="vision-text">To make tourism in Jharkhand more <strong>accessible</strong>, <strong>sustainable</strong> and <strong>inclusive</strong> by connecting travelers with nature, culture & local communities through a smart, simple digital platform.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHY SPECIAL ===== -->
+    <section id="why" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Why This Idea Is Special</h2>
+          <p class="section-sub">Five pillars that make JoharYatra more than just a travel app.</p>
+        </div>
+        <div class="why-grid" id="whyGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===== JOURNEY / FLOWCHART ===== -->
+    <section id="journey" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Your Journey, Step by Step</h2>
+          <p class="section-sub">From first hello to final review — the complete user flow.</p>
+        </div>
+        <div class="journey-grid" id="journeyGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===== KEY FEATURES ===== -->
+    <section id="features" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Key Features</h2>
+          <p class="section-sub">Everything a traveler needs, built lightweight and fast.</p>
+        </div>
+        <div class="features-grid" id="featuresGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===== DESTINATIONS + MAP ===== -->
+    <section id="destinations" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Explore Destinations</h2>
+          <p class="section-sub">Click any card to see it on the interactive map.</p>
+        </div>
+        <div class="destinations-layout">
+          <div class="destinations-list" id="destinationsList"></div>
+          <div class="map-wrapper reveal">
+            <div id="map"></div>
+            <div class="map-info" id="mapInfo">
+              <i data-lucide="info"></i>
+              <span>Click a destination card to view it on the map.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TRIP PLANNER ===== -->
+    <section id="planner" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Smart Trip Planner</h2>
+          <p class="section-sub">Tell us your style — get a personalized itinerary instantly.</p>
+        </div>
+        <div class="planner-wrapper reveal">
+          <div class="planner-form">
+            <div class="planner-step">
+              <h3><span class="step-num">1</span> What are you interested in?</h3>
+              <div class="pref-chips" id="prefChips"></div>
+            </div>
+            <div class="planner-step">
+              <h3><span class="step-num">2</span> How long is your trip?</h3>
+              <div class="duration-chips" id="durationChips"></div>
+            </div>
+            <div class="planner-step">
+              <h3><span class="step-num">3</span> What's your budget?</h3>
+              <div class="budget-chips" id="budgetChips"></div>
+            </div>
+            <button class="btn btn-primary planner-generate" id="generateItinerary">
+              <i data-lucide="sparkles"></i> Generate My Itinerary
+            </button>
+          </div>
+          <div class="planner-result" id="plannerResult">
+            <div class="planner-placeholder">
+              <i data-lucide="route"></i>
+              <p>Your personalized itinerary will appear here.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CULTURE HUB ===== -->
+    <section id="culture" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Culture Hub</h2>
+          <p class="section-sub">Stories, festivals, food, music, and the living heritage of Jharkhand.</p>
+        </div>
+        <div class="culture-tabs">
+          <button class="culture-tab active" data-tab="stories">Stories</button>
+          <button class="culture-tab" data-tab="festivals">Festivals</button>
+          <button class="culture-tab" data-tab="tribes">Tribes</button>
+        </div>
+        <div class="culture-content" id="cultureContent"></div>
+      </div>
+    </section>
+
+    <!-- ===== MARKETPLACE ===== -->
+    <section id="marketplace" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Local Ecosystem</h2>
+          <p class="section-sub">Artisans, guides, and homestays — verified and community-connected.</p>
+        </div>
+        <div class="marketplace-tabs">
+          <button class="market-tab active" data-mtab="artisans">Artisans</button>
+          <button class="market-tab" data-mtab="guides">Guides</button>
+          <button class="market-tab" data-mtab="homestays">Homestays</button>
+        </div>
+        <div class="marketplace-content" id="marketplaceContent"></div>
+      </div>
+    </section>
+
+    <!-- ===== UNIQUE ELEMENTS ===== -->
+    <section id="unique" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Unique & Creative Elements</h2>
+          <p class="section-sub">The special touches that make JoharYatra stand apart.</p>
+        </div>
+        <div class="unique-grid" id="uniqueGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===== ECO SCORE DEMO ===== -->
+    <section id="eco" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Eco Score & Impact</h2>
+          <p class="section-sub">See how your trip helps nature and communities — in real numbers.</p>
+        </div>
+        <div class="eco-wrapper reveal">
+          <div class="eco-score-card">
+            <div class="eco-ring">
+              <svg viewBox="0 0 200 200" width="200" height="200">
+                <circle cx="100" cy="100" r="85" fill="none" stroke="rgba(0,0,0,0.08)" stroke-width="14" />
+                <circle id="ecoRingFill" cx="100" cy="100" r="85" fill="none" stroke="url(#ecoGrad)" stroke-width="14" stroke-linecap="round" stroke-dasharray="534" stroke-dashoffset="534" transform="rotate(-90 100 100)" />
+                <defs>
+                  <linearGradient id="ecoGrad" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#2d6a4f" />
+                    <stop offset="100%" stop-color="#95d5b2" />
+                  </linearGradient>
+                </defs>
+              </svg>
+              <div class="eco-ring-text">
+                <span id="ecoScoreNum">0</span>
+                <span class="eco-unit">/ 100</span>
+              </div>
+            </div>
+            <div class="eco-badges" id="ecoBadges"></div>
+          </div>
+          <div class="eco-charts">
+            <div class="eco-chart-box">
+              <h4>Your Impact Breakdown</h4>
+              <canvas id="impactChart" width="320" height="240"></canvas>
+            </div>
+            <div class="eco-chart-box">
+              <h4>Community Benefits</h4>
+              <canvas id="communityChart" width="320" height="240"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ASSISTANT ===== -->
+    <section id="assistant" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Johar Assistant</h2>
+          <p class="section-sub">Smart FAQ assistant — instant answers for common questions.</p>
+        </div>
+        <div class="assistant-wrapper reveal">
+          <div class="assistant-chat" id="assistantChat">
+            <div class="chat-msg bot">
+              <div class="chat-avatar"><i data-lucide="leaf"></i></div>
+              <div class="chat-bubble">Johar! I'm your travel assistant. Ask me anything about Jharkhand tourism, or tap a question below.</div>
+            </div>
+          </div>
+          <div class="assistant-quick" id="assistantQuick"></div>
+          <div class="assistant-input">
+            <input type="text" id="assistantInput" placeholder="Type your question..." autocomplete="off" />
+            <button id="assistantSend" class="btn btn-primary"><i data-lucide="send"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TECH STACK ===== -->
+    <section id="tech" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Tech Stack</h2>
+          <p class="section-sub">Lightweight, free, and deployable anywhere.</p>
+        </div>
+        <div class="tech-badges" id="techBadges"></div>
+        <div class="tech-flow reveal">
+          <div class="tech-flow-node">
+            <i data-lucide="monitor"></i>
+            <span>User Browser</span>
+            <small>Front-End</small>
+          </div>
+          <i data-lucide="arrow-right" class="tech-arrow"></i>
+          <div class="tech-flow-node">
+            <i data-lucide="database"></i>
+            <span>JSON Files</span>
+            <small>Local Data</small>
+          </div>
+          <i data-lucide="arrow-right" class="tech-arrow"></i>
+          <div class="tech-flow-node">
+            <i data-lucide="cpu"></i>
+            <span>JavaScript</span>
+            <small>Logic</small>
+          </div>
+        </div>
+        <div class="tech-note reveal">
+          <i data-lucide="check-circle-2"></i>
+          <span>No Database • No Server • Easy to Build • Zero Cost</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHY WE CAN WIN ===== -->
+    <section id="win" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Why We Can Win</h2>
+          <p class="section-sub">A real solution with real impact — built to impress.</p>
+        </div>
+        <div class="win-grid" id="winGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===== FUTURE SCALABILITY ===== -->
+    <section id="future" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Future Scalability</h2>
+          <p class="section-sub">Where JoharYatra goes next — the roadmap ahead.</p>
+        </div>
+        <div class="future-timeline" id="futureTimeline"></div>
+      </div>
+    </section>
+
+    <!-- ===== TAGLINES ===== -->
+    <section id="taglines" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">The Spirit of JoharYatra</h2>
+        </div>
+        <div class="tagline-grid" id="taglineGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <span class="logo-leaf"><i data-lucide="leaf"></i></span>
+              <span>JOHARYATRA</span>
+            </div>
+            <p>Bringing tourists closer to Nature, Culture & Communities. Building a sustainable tourism future for Jharkhand.</p>
+          </div>
+          <div class="footer-links">
+            <h4>Explore</h4>
+            <a href="#destinations">Destinations</a>
+            <a href="#planner">Trip Planner</a>
+            <a href="#culture">Culture Hub</a>
+            <a href="#marketplace">Marketplace</a>
+          </div>
+          <div class="footer-links">
+            <h4>Platform</h4>
+            <a href="#features">Features</a>
+            <a href="#journey">User Journey</a>
+            <a href="#assistant">Assistant</a>
+            <a href="#eco">Eco Score</a>
+          </div>
+          <div class="footer-links">
+            <h4>About</h4>
+            <a href="#vision">Our Vision</a>
+            <a href="#why">Why Us</a>
+            <a href="#tech">Tech Stack</a>
+            <a href="#future">Future Roadmap</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2026 JoharYatra — Explore Jharkhand. Experience its Soul.</p>
+          <p class="footer-credit">Built with HTML, CSS, JavaScript, Leaflet & Chart.js</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ===== MODAL ===== -->
+    <div id="modal" class="modal-overlay">
+      <div class="modal-box">
+        <button class="modal-close" id="modalClose"><i data-lucide="x"></i></button>
+        <div id="modalContent"></div>
+      </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "features": [
+    { "id": 1, "title": "Smart Trip Planner", "desc": "Rule-based personalized itineraries that match your interests, budget, and travel dates.", "icon": "route", "color": "forest" },
+    { "id": 2, "title": "Interactive Map", "desc": "Click, explore, and find nearby places with Leaflet + OpenStreetMap integration.", "icon": "map", "color": "gold" },
+    { "id": 3, "title": "Culture Hub", "desc": "Stories, festivals, food, music, and the living heritage of Jharkhand's tribes.", "icon": "book-open", "color": "terracotta" },
+    { "id": 4, "title": "Local Marketplace", "desc": "Buy local handicrafts and support artisans & small businesses directly.", "icon": "store", "color": "forest" },
+    { "id": 5, "title": "Guide & Stay Verification", "desc": "Digital certificates that build trust between travelers and local service providers.", "icon": "badge-check", "color": "gold" },
+    { "id": 6, "title": "Eco Score & Badges", "desc": "Gamified sustainability tracking — earn badges as you explore responsibly.", "icon": "leaf", "color": "terracotta" },
+    { "id": 7, "title": "Assistant (FAQs)", "desc": "Predefined smart answers for the most common tourist questions, available instantly.", "icon": "message-circle", "color": "forest" },
+    { "id": 8, "title": "Admin Analytics", "desc": "Data insights on visitor trends and local impact for the Tourism Department & planners.", "icon": "bar-chart", "color": "gold" }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "artisans": [
+    {
+      "id": 1,
+      "name": "Sohrai Canvas Art",
+      "artisan": "Sunita Devi",
+      "village": "Bharno, Hazaribagh",
+      "image": "https://images.pexels.com/photos/4706105/pexels-photo-4706105.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "desc": "Hand-painted Sohrai art on canvas using natural pigments — deer, peacocks, and sun motifs.",
+      "price": "₹800 – ₹3,500",
+      "verified": true
+    },
+    {
+      "id": 2,
+      "name": "Terracotta Pottery",
+      "artisan": "Mahavir Prajapati",
+      "village": "Mandar, Ranchi",
+      "image": "https://images.pexels.com/photos/11487830/pexels-photo-11487830.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "desc": "Earthen pots, diyas, and decorative pieces shaped on the traditional potter's wheel.",
+      "price": "₹150 – ₹1,200",
+      "verified": true
+    },
+    {
+      "id": 3,
+      "name": "Dokra Brass Bell Craft",
+      "artisan": "Bikash Karmakar",
+      "village": "Bikna, Bankura border",
+      "image": "https://images.pexels.com/photos/20362433/pexels-photo-20362433.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "desc": "Lost-wax bronze and brass figurines — tribal deities, elephants, and ritual objects.",
+      "price": "₹500 – ₹8,000",
+      "verified": true
+    },
+    {
+      "id": 4,
+      "name": "Bamboo & Cane Basketry",
+      "artisan": "Lakshmi Murmu",
+      "village": "Dumka",
+      "image": "https://images.pexels.com/photos/29418319/pexels-photo-29418319.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "desc": "Intricate handwoven baskets and containers from sustainably harvested bamboo.",
+      "price": "₹200 – ₹900",
+      "verified": false
+    }
+  ],
+  "guides": [
+    { "id": 1, "name": "Ramesh Munda", "region": "Netarhat & Betla", "languages": ["Hindi", "Nagpuri", "English"], "experience": "12 years", "rating": 4.9, "verified": true },
+    { "id": 2, "name": "Anita Kisku", "region": "Santhal Pargana", "languages": ["Santhali", "Hindi", "Bengali"], "experience": "8 years", "rating": 4.8, "verified": true },
+    { "id": 3, "name": "Dhananjay Singh", "region": "Ranchi & Hundru", "languages": ["Hindi", "English"], "experience": "15 years", "rating": 5.0, "verified": true }
+  ],
+  "homestays": [
+    { "id": 1, "name": "Netarhat Pine Retreat", "host": "Joseph Tudu", "village": "Netarhat", "image": "https://images.pexels.com/photos/1469875/pexels-photo-1469875.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", "price": "₹1,200/night", "rating": 4.8, "verified": true, "amenities": ["Hot water", "Home-cooked meals", "Sunrise viewpoint", "Wi-Fi"] },
+    { "id": 2, "name": "Santhal Heritage Homestay", "host": "Sukra Murmu", "village": "Dumka", "image": "https://images.pexels.com/photos/14136902/pexels-photo-14136902.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", "price": "₹900/night", "rating": 4.7, "verified": true, "amenities": ["Tribal meals", "Cultural performances", "Farm tours"] },
+    { "id": 3, "name": "Patratu Valley Eco-Stay", "host": "Meena Devi", "village": "Patratu", "image": "https://images.pexels.com/photos/36908034/pexels-photo-36908034.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", "price": "₹1,500/night", "rating": 4.9, "verified": true, "amenities": ["Valley view", "Organic meals", "Bonfire", "Stargazing"] }
+  ]
+}

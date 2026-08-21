@@ -1,0 +1,48 @@
+{
+  "stories": [
+    {
+      "id": 1,
+      "title": "The Santhal Creation Myth",
+      "excerpt": "In the beginning, the world was water. From the foam, the first humans emerged — and the Great Spirit gave them the land to guard.",
+      "body": "The Santhals, one of Jharkhand's largest indigenous communities, believe the world began as a vast ocean. From the sea foam, Marang Buru — the Great Spirit — shaped the first humans, Pilchu Haram and Pilchu Budhi. He gave them the forests, rivers, and hills of Jharkhand to protect. This deep bond with nature still shapes Santhal life today: every festival, every song, every dance is an offering to the land that sustains them.",
+      "image": "https://images.pexels.com/photos/19331691/pexels-photo-19331691.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "category": "Folklore"
+    },
+    {
+      "id": 2,
+      "title": "Sarhul: The Festival of Spring",
+      "excerpt": "When the Sal trees bloom, the tribes celebrate Sarhul — a thanksgiving to nature for a bountiful year.",
+      "body": "Sarhul is Jharkhand's most important festival, marking the blooming of Sal trees and the arrival of spring. Tribal villages gather under the Sarna (sacred grove), where the Pahan (village priest) offers flowers and rice beer to the spirits of nature. Drums echo through the forests, men and women dance the Jhumar in colorful traditional attire, and the entire community feasts together. Sarhul is not just a festival — it is a covenant between the people and the forest.",
+      "image": "https://images.pexels.com/photos/3913942/pexels-photo-3913942.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "category": "Festival"
+    },
+    {
+      "id": 3,
+      "title": "The Art of Sohrai Painting",
+      "excerpt": "Once painted on mud walls to thank cattle, Sohrai art now carries tribal stories onto canvas and galleries worldwide.",
+      "body": "Sohrai painting originated as a harvest festival art, where tribal women decorated their mud walls with natural pigments to honor their cattle — the backbone of agrarian life. Using fingers, twigs, and cloth swabs, they drew deer, elephants, peacocks, and sun symbols. Today, Sohrai art has been recognized with a Geographical Indication (GI) tag, and artists from Hazaribagh have exhibited their work internationally, turning a village tradition into a global art form.",
+      "image": "https://images.pexels.com/photos/4706105/pexels-photo-4706105.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "category": "Art & Craft"
+    },
+    {
+      "id": 4,
+      "title": "Dhuska & Handia: A Taste of Jharkhand",
+      "excerpt": "From the crispy rice-lentil Dhuska to the sacred rice beer Handia — Jharkhand's cuisine is earthy, rustic, and soulful.",
+      "body": "Jharkhand's food is as rooted in the land as its people. Dhuska — a deep-fried bread of rice and lentil batter — is a breakfast staple, served with spicy potato curry. Pittha, steamed rice dumplings with sweet or savory fillings, marks every festival. And then there's Handia, the traditional rice beer brewed in earthen pots, fermented with ranu tablets of herbs and roots. More than a drink, Handia is sacred — shared during Sarhul, weddings, and community gatherings as a symbol of unity.",
+      "image": "https://images.pexels.com/photos/29148133/pexels-photo-29148133.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "category": "Food & Drink"
+    }
+  ],
+  "festivals": [
+    { "name": "Sarhul", "month": "Mar–Apr", "desc": "Spring festival celebrating the blooming of Sal trees and nature's bounty." },
+    { "name": "Karma", "month": "Aug–Sep", "desc": "Festival honoring the Karma tree, with night-long dance and song." },
+    { "name": "Sohrai", "month": "Oct–Nov", "desc": "Harvest and cattle festival with vibrant wall paintings and feasts." },
+    { "name": "Tusu", "month": "Dec–Jan", "desc": "Winter harvest festival with folk songs and colorful kite traditions." }
+  ],
+  "tribes": [
+    { "name": "Santhal", "population": "2.6M+", "region": "North & East Jharkhand", "known": "Oldest and largest tribe; rich musical heritage with Tamak & Tumdak drums." },
+    { "name": "Munda", "population": "1.2M+", "region": "Central Jharkhand", "known": "Known for the Munda Rebellion and the concept of Parha (village council) governance." },
+    { "name": "Oraon", "population": "1.1M+", "region": "North & West Jharkhand", "known": "Agrarian community famous for Karma and Sarhul festivals and intricate beadwork." },
+    { "name": "Ho", "population": "900K+", "region": "West Singhbhum", "known": "Guardians of the Saranda forest, one of Asia's largest sal forests." }
+  ]
+}
